@@ -10,6 +10,8 @@ from sklearn.metrics import mean_squared_error
 from django.http import JsonResponse
 from rap import utils
 
+#contoh
+
 def get_prediction(nama_coin, day):
     df = utils.get_coin(nama_coin)
 
